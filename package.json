@@ -60,5 +60,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "engines": {
+    "node": "^12.0"
   }
 }

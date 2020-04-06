@@ -1,5 +1,4 @@
 import { BaseModel } from 'startupjs/orm'
-// import { useDoc } from 'startupjs'
 
 export default class ToDoModel extends BaseModel {
   async addSelf () {

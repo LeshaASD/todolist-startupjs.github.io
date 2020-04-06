@@ -9,6 +9,7 @@
     "start": "startupjs start",
     "test": "jest",
     "lint": "eslint .",
+    "deploy": "gh-pages -d build",
     "metro": "react-native start --reset-cache",
     "web": "startupjs web",
     "server": "startupjs server",

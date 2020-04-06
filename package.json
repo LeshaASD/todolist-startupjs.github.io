@@ -1,6 +1,7 @@
 {
   "name": "todolist",
   "version": "0.0.1",
+  "homepage": "https://github.com/LeshaASD/todolist-startupjs.github.io.git",
   "private": true,
   "scripts": {
     "android": "react-native run-android && (npm run adb || true) && npm run log-android",
@@ -60,8 +61,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "engines": {
-    "node": "^12.0"
   }
 }

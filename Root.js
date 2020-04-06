@@ -12,10 +12,6 @@ import {
 import './Root.styl'
 import { Todolist } from './components/index'
 
-// Init startupjs connection to server and the ORM.
-// baseUrl option is required for the native to work - it's used
-// to init the websocket connection and axios.
-// Initialization must start before doing any subscribes to data.
 init({ baseUrl: BASE_URL, orm })
 
 export default observer(function Root () {

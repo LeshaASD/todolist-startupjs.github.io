@@ -1,7 +1,6 @@
 {
   "name": "todolist",
   "version": "0.0.1",
-  "homepage": "https://github.com/LeshaASD/todolist-startupjs.github.io.git",
   "private": true,
   "scripts": {
     "android": "react-native run-android && (npm run adb || true) && npm run log-android",
@@ -50,6 +49,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-pug": "^0.8.4",
     "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^2.2.0",
     "jest": "^24.9.0",
     "lint-staged": "^10.1.1",
     "react-test-renderer": "16.11.0"
